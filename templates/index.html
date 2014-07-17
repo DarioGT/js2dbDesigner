@@ -6,10 +6,12 @@
 	    {% csrf_token %}
 
         <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}bootstrap.css">
-        <script type="text/javascript" src="{{ STATIC_URL }}ext/ext-dev.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://cdn.sencha.com/ext/gpl/4.2.1/resources/css/ext-all-gray.css">
+		<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/app.css">
+
+		<script type="text/javascript" src="http://cdn.sencha.com/ext/gpl/4.2.1/ext-all-debug.js"></script>
         <script type="text/javascript" src="{{ STATIC_URL }}bootstrap.js"></script>
 
-		<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/app.css">
 		<script type="text/javascript" src="{{ STATIC_URL }}app/globals/variables.js"></script>
 		<script type="text/javascript" src="{{ STATIC_URL }}app/globals/locale/SM__lang-en.js"></script>
 		
